@@ -1,0 +1,535 @@
+body {
+  background-image: url("../images/blue.jpg");
+  background-size: !important cover;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  z-index: 80;
+  position:  fixed;
+  display:  flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content:  center;
+
+  /* display: -webkit-flex;
+  display: -ms-flex;
+  -ms-alight-items: center;
+  align-items: center;
+  padding bottom: 20px; */
+}
+
+.middle {
+  font-family: "South Park Cyrillic";
+  font-size: 20px;
+  z-index:90;
+  color: black;
+  position: fixed;
+  display:  flex;
+  top: 29px;
+  flex-direction: row;
+  white-space: nowrap;
+  gap: 50px;
+}
+.menu {
+  display: none;
+}
+
+.nodecorations {
+  color: black;
+  text-decoration: none;
+}
+
+
+.header_picture {
+  height: 84.5px;
+  object-fit:   fill;
+  width:  100%;
+  position: fixed;
+
+}
+
+.egg {
+  position: fixed;;
+  display: flex;
+  left: 2vw;
+  top: 1.5vh;
+  z-index: 90;
+}
+
+.cart {
+  position: fixed;
+  display: flex;
+  right: 2vw;
+  top: 1.5vh;
+  z-index: 90;
+
+}
+
+.dragons {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  z-index: 6;
+}
+.dragons-mobile {
+  display: none;
+}
+.dragons-tablet {
+  display: none;
+}
+.dragons_picture {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  z-index: 6;
+}
+
+.welcome {
+  position: absolute;
+  font-family: "South Park Cyrillic";
+  font-size: 48px;
+  z-index:30;
+  color: black;
+  display: flex;
+  top: 280px;
+  left: 10%;
+  line-height: 110%;
+  color: black;
+  text-decoration: none;
+
+}
+
+.cloud1 {
+  position: fixed;
+  top: 10%;
+  /* display: flex; */
+  /* margin-top: 20px;
+  margin-left: 1052px; */
+  z-index: 5;
+  animation: cloud1moving 5s alternate-reverse infinite;
+  /* animation-timing-function: cubic-bezier(0,.02,.98,1); */
+  animation-timing-function: linear;
+}
+
+.cloud2 {
+  position: fixed;
+  top: 45%;
+  z-index: 5;
+  animation: cloud2moving 5s alternate-reverse infinite;
+  /* animation-timing-function: cubic-bezier(0,.02,.98,1); */
+  animation-timing-function: linear;
+}
+
+  .cloud3 {
+    position: fixed;
+    top: 80%;
+    z-index: 5;
+    animation: cloud1moving 5s alternate-reverse infinite;
+    /* animation-timing-function: cubic-bezier(0,.02,.98,1); */
+    animation-timing-function: linear;
+    }
+
+/* .footer {
+  bottom: 0;
+  z-index: 80;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer_picture {
+height: 84.5px;
+object-fit: fill;
+width: 100%;
+position: relative;
+display: flex;
+    } */
+
+table, td {
+    margin-top: 120px;
+    position: relative;
+    font-family:  "South Park Cyrillic";
+    font-size: 20px;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 50px;
+    border: 2px  solid #000000;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0px 1px 0px 1px 0px;
+    width: 70%;
+    table-layout: fixed;
+    height: 60%
+
+
+
+
+
+}
+table {
+    /* margin-top: 100px; */
+    background-image: url("../images/white.jpg");
+    /* top: 80%;
+    left: 2% */
+}
+
+th {
+  padding: 8px;
+  background-image: url("../images/red.jpg");
+  height: 30px;
+  text-align: left;
+
+
+}
+
+td {
+  padding: 5px;
+  width: 150px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.star {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+
+}
+
+.triangle {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+.circle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+
+.form_text {
+  margin-top: 120px;
+  font-family:  "South Park Cyrillic";
+  font-size: 20px;
+  text-align: left;
+  flex-wrap: wrap;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.form_text2 {
+  margin-top: 80px;
+  font-family:  "South Park Cyrillic";
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* .button_text {
+  position: absolute;
+  margin-left: none;
+  margin-top: 70px;
+  font-family:  "South Park Cyrillic";
+  font-size: 20px;
+  text-align: center;
+}
+
+.yellow_button {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+} */
+/* .form_text {
+
+  left: 60%;
+} */
+
+.timetable_button {
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+height: 20px;
+width: 170px;
+font-family:  "South Park Cyrillic";
+font-size: 20px;
+text-align: center;
+background-image:  url("../images/button.svg");
+background-size: cover;
+padding: 20px 13px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.meanings {
+  margin-top: 378px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.star2 {
+
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+
+}
+
+.triangle2 {
+
+  width: 38%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+.circle2 {
+  width: 58%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.h1 {
+  position: relative;
+  font-family:  "South Park Cyrillic";
+  font-size: 36px;
+  text-align: left;
+  top: 15vh;
+  left: 5vw;
+    z-index: 60
+}
+.aboutus_text_photos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 300px;
+
+}
+.aboutus_text_cl {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.aboutus_text {
+  position: relative;
+  font-family: "South Park Cyrillic";
+  font-size: 20px;
+  text-align: left;
+  margin-top:20vh;
+  left: 5vw;
+  z-index: 60;
+
+}
+
+.building {
+height: 130%;
+width: 100%
+
+}
+
+.building_photos {
+
+  /* height: 900px; */
+  width: 100%
+}
+
+/* .coach1 {
+  position: relative;
+  left: 5vw;
+} */
+
+.coach_text {
+  font-family: "South Park Cyrillic";
+  font-size: 20px;
+  text-align: left;
+  margin-top:5vh;
+
+  z-index: 60;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+   gap: 30px;
+}
+.coaches_flex {
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  gap: 30px;
+ z-index: 60;
+ margin-top: 80px;
+}
+
+.pedestal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  z-index: 60;
+  bottom: 0;
+  align-items: flex-end;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.medium {
+
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height:555px;
+  width: 317px;
+  background-image: url("../images/white.jpg");
+  background-size:  cover;
+}
+
+.medium_name {
+  font-family: "South Park Cyrillic";
+  font-size: 32px;
+  text-align: center;
+  padding: 20px;
+}
+
+.medium_text {
+  font-family: "South Park Cyrillic";
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+.light {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height:555px;
+  width: 317px;
+  background-image: url("../images/white.jpg");
+  background-size:  cover;
+}
+
+.light_name {
+  font-family: "South Park Cyrillic";
+  font-size: 32px;
+  text-align: center;
+  padding: 20px;
+}
+
+.light_text {
+  font-family: "South Park Cyrillic";
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+
+
+.pro {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height:738px;
+  width: 395px;
+  background-image: url("../images/white.jpg");
+  background-size:  cover;
+}
+
+.pro_name {
+  font-family: "South Park Cyrillic";
+  font-size: 32px;
+  text-align: center;
+
+}
+.pro_text {
+  font-family: "South Park Cyrillic";
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+.posters {
+  padding-top: 200px;
+  margin: 0 auto;
+  width: 450px;
+  z-index: 10;
+  position: relative;
+  display: flex;
+}
+.poster1 {
+  transform: rotate(8deg);
+}
+.poster2 {
+  transform: rotate(-3deg);
+}
+.poster3 {
+  transform: rotate(2deg);
+}
+.poster4 {
+  transform: rotate(-10deg);
+}
+.poster5 {
+  transform: rotate(6deg);
+}
+.poster6 {
+  transform: rotate(-4deg);
+}
+.poster7 {
+  transform: rotate(3deg);
+}
+.poster8 {
+  transform: rotate(-8deg);
+  padding-bottom: 100px;
+}
+
+.events-text {
+  width: 420px;
+  position: absolute;
+  top: 100px;
+  opacity: 0;
+  pointer-events: none;
+}
+.events-text-p {
+  z-index: 100;
+  position: absolute;
+  padding: 30px;
+}
+.opacity-100 {
+  opacity: 100;
+}

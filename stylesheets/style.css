@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "layout.css";
+@import "responsive.css";
+@import "animation.css";
+@font-face {
+  font-family: 'South Park Cyrillic';
+  src: url('../fonts/South Park Cyrillic.ttf') format("truetype");
+}

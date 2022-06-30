@@ -1,0 +1,9 @@
+@keyframes cloud1moving {
+  0% {right: -15%;}
+  100% {right: 115%;}
+}
+
+@keyframes cloud2moving {
+  0% {left: -15%;}
+  100% {left: 115%;}
+}

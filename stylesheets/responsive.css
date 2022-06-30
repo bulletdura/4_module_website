@@ -1,0 +1,30 @@
+@media screen and (max-width: 1120px) {
+  .middle {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .dragons-tablet {
+    display: flex;
+  }
+  .dragons-mobile {
+    display: none;
+  }
+  .dragons {
+    display: none;
+  }
+}
+@media screen and (max-width: 414px) {
+  .dragons-mobile {
+    display: flex;
+  }
+  .dragons-tablet {
+    display: none;
+  }
+  .dragons {
+    display: none;
+  }
+}
